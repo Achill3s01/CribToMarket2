@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --accent-color: rgb(144, 144, 255);
+    --base-color: rgb(255, 255, 255);
+    --input-color: #f3f0ff;
+    --text-color: #2e2841;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html{
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: #1a1818;
+   
+}
+
+#Heading{
+    background-color: #070609;
+    padding: 10px;
+    text-align: center;
+    cursor: default;
+}
+.navbar ul{
+   list-style-type: none;
+    background-color: var(--accent-color);
+    overflow: hidden;
+    
+    
+   
+}
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    
+    
+   
+    
+
+}
+#back{
+    margin-right: 5px;
+    
+}
+.navbar a:hover{
+      background-color:rgb(168, 168, 247);
+      margin-top: 0%;
+      border-radius: 5px;
+     
+
+
+}
+
+.navbar #left{
+    float: left;
+  
+    
+   
+}
+.navbar .viewbox{
+    background-color: #070609;
+
+}
+.navbar #right{
+    float: right;
+    
+    
+
+
+}
+
+.navbar .button{
+    border-radius: 0px 7px 7px 0px;
+    background-color: black;
+} 
+
+
+.fa-solid.fa-door-open{
+    margin-left: 6px;
+    
+}
+main{
+    box-sizing: border-box;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    min-height: 100vh;
+    
+
+}
+.chartBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 0%;
+
+}
+
+#myChart{
+  
+    padding: 2em;
+    
+    background-color: rgb(0, 0, 0);
+    
+    border-radius: 30px;
+    box-shadow:0 0 16px #e0dee3;
+    
+    
+}
+#myChart2{
+    
+    padding: 2em;
+    
+    background-color: rgb(0, 0, 0);
+    
+    border-radius: 30px;
+    box-shadow:0 0 16px #e0dee3;
+}
+#profile{
+    background-color: rgb(0, 0, 0);
+    
+    border-radius: 0px 0px 30px  0px;
+    box-shadow:0 0 10px #e0dee3;
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+   
+  
+    
+}
+#pfp{
+    width: 3vw;
+    height: 5vh;
+    margin-left: 1vw;
+}
+#profile > pre{
+    font: inherit;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+#balance{
+    background-color: #18e6af;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+    box-shadow:0 0 16px #e0dee3;
+    margin-bottom: 10vh;
+    
+    
+}
+#balance > h2{
+    color: #070609;
+   
+    cursor: default;
+}
+#currency{
+    display: flex;
+   
+    justify-content: center;
+    gap: 0;
+    
+    gap: 3vw;
+    
+    
+}
+#CateCoin{
+    background-color: rgb(205, 130, 18);
+    display: flex;
+    align-items: center;
+    border-radius:16px;
+    box-shadow:0 0 16px #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 50px;
+   
+    
+}
+#LitCoin{
+    background-color: rgb(89, 177, 39);
+    display: flex;
+    align-items: center;
+    
+    border-radius:16px;
+    box-shadow:0 0 16px #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 60px;
+}
+#Metherium{
+    background-color: rgb(39, 159, 180);
+    display: flex;
+    align-items: center;
+    border-radius:16px;
+    box-shadow:0 0 16px  #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 40px;
+}
+#CateCoin > h2{
+    margin-left: 2vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#LitCoin > h2{
+    margin-left: 2.5vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Metherium > h2{
+    margin-left: 2vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: pointer;
+}
+#CateCoin:hover{
+   transition: 200ms ease;
+   background-color: rgb(234, 158, 44);
+   box-shadow:0 0 20px  #e0dee3;
+}
+#LitCoin:hover{
+    transition: 200ms ease;
+    background-color:  rgb(108, 217, 45);
+    box-shadow:0 0 20px  #e0dee3;
+}
+#Metherium:hover{
+    transition: 200ms ease;
+    background-color: rgb(48, 191, 216);
+    box-shadow:0 0 20px  #e0dee3;
+
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 17px;
+}
+a{
+    text-decoration: none;
+}
+
+#name{
+    background-color: #ffc131;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+    box-shadow:0 0 16px #e0dee3;
+    margin-bottom: 10vh;
+}
+
+#name > h2{
+    color: #000000;
+   
+    cursor: default;
+}
+#name2{
+    background-color: #3bff31;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+    box-shadow:0 0 16px #e0dee3;
+    margin-bottom: 10vh;
+}
+#name2 > h2{
+    color: #000000;
+   
+    cursor: default;
+}
+#name3{
+    background-color: #3bff31;
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+    box-shadow:0 0 16px #e0dee3;
+    margin-bottom: 10vh;
+}
+#name3 > h2{
+    color: #000000;
+   
+    cursor: default;
+}
+#cap{
+    background-color:  #2197e0;
+    display: flex;
+    align-items: center;
+    border-radius:16px;
+    box-shadow:0 0 16px #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 20px;
+}
+#fdv{
+    background-color: #2197e0;
+    display: flex;
+    align-items: center;
+    
+    border-radius:16px;
+    box-shadow:0 0 16px #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 55px;
+}
+#supply{
+    background-color: #2197e0;
+    display: flex;
+    align-items: center;
+    border-radius:16px;
+    box-shadow:0 0 16px  #e0dee3;
+    width: 18vw;
+    height: 20vh;
+    gap: 35px;
+}
+#cap > h2{
+    margin-left: 0.5vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: default;
+    
+}
+#fdv > h2{
+    margin-left: 2vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: default;
+}
+#supply > h2{
+    margin-left: 1vw;
+    color: #070609;
+    font-weight: bold;
+    cursor: default;
+}
+#cap:hover{
+   transition: 200ms ease;
+   background-color:  #2197e0;
+   box-shadow:0 0 20px  #e0dee3;
+}
+#fdv:hover{
+    transition: 200ms ease;
+    background-color:   #2197e0;
+    box-shadow:0 0 20px  #e0dee3;
+}
+#supply:hover{
+    transition: 200ms ease;
+    background-color:  #2197e0;
+    box-shadow:0 0 20px  #e0dee3;
+
+}
+#num1{
+   font-family: DotGothic;
+    color: #2bff00;
+   font-size: 50px;
+   cursor: default;
+   
+}
+#num2{
+    font-family: DotGothic;
+    font-size: 50px;
+    color: #2bff00;
+    cursor: default;
+}
+#num3{
+    font-family: DotGothic;
+    font-size: 50px;
+    cursor: default;
+    color: #2bff00;
+   
+}
+#about{
+    padding: 2em;
+    
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow:0 0 16px #e0dee3;
+    margin-top: 10vh;
+    width: 50vw;
+    margin-left: 25vw;
+}
+#abouttext{
+   color: #d13636;
+   
+   
+   
+   
+}

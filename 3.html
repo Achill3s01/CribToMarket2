@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CribToMarket</title>
+    <link rel="icon" type="image/favicon" href="favicon.png">
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@2.0.0/dist/chartjs-plugin-streaming.min.js"></script>  
+    <script src="https://kit.fontawesome.com/80f7ece083.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 id="Heading">CribToMarket</h1>
+    <nav class="navbar">
+        <ul>
+            
+            <li id="left"><a href="dashboard.html"><svg id="back" xmlns="http://www.w3.org/2000/svg" height="10px" viewBox="0 -960 960 960" width="10px" fill="#000000"><path d="m368-417 202 202-90 89-354-354 354-354 90 89-202 202h466v126H368Z"/></svg>Back
+               
+            </a></li>
+           
+          
+            
+            <li id="right"><a href="login.html">Log Out
+                <i class="fa-solid fa-door-open"></i>
+                
+            </a></li>
+        </ul>
+    </nav>
+     <div id="profile">
+        <img type="image/png" src="pfp.png" id="pfp"> <pre>    DaddyCool001</pre>
+     </div>
+
+    </div>
+    <div id="name3">
+       <h2>Methereum</h2>
+       
+       
+   </div>
+   <div id="currency">
+   
+     <div id="cap">
+        <h2>Market Cap</h2><h1 id="num1">$3.6T</h1>
+    </div>
+
+ 
+ <div  id="fdv">
+      <h2>FDV</h2> <h1 id="num2">$3.97T</h1>
+    
+ </div>
+ 
+ 
+  
+    <div id="supply">
+     <h2>Tot. Supply</h2><h1 id="num3">3.5B</h1>
+   
+ </div>
+   </div>
+    <main>
+      
+
+
+
+        <div class="chartBox">
+            <canvas id="myChart" width="20px" height="15px">
+                <script src="chart.js" defer></script>
+
+            </canvas>
+           
+            <canvas id="myChart2" width="10px"></canvas>
+                <script src="chart4.js" defer></script>
+            </canvas>
+           
+        
+        
+        </div>
+     
+           
+       
+    
+    </main>
+</body>
+</html>
